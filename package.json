@@ -16,6 +16,9 @@
     "react-just-parallax": "^3.1.16",
     "tailwind-merge": "^2.5.4"
   },
+  "resolutions": {
+    "framer-motion/react": "19.0.0-rc-66855b96-20241106"
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",

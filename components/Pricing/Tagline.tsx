@@ -1,5 +1,5 @@
 import React from "react";
-import brackets from "./Brackets";
+import Brackets from "./Brackets";
 
 const TagLine = ({
   className,
@@ -10,9 +10,9 @@ const TagLine = ({
 }) => {
   return (
     <div className={`tagline flex items-center ${className || ""}`}>
-      {brackets("left")}
+      <Brackets position="left" />
       <div className="mx-3 text-n-3">{children}</div>
-      {brackets("right")}
+      <Brackets position="right" />
     </div>
   );
 };

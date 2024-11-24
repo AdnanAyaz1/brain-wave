@@ -1,11 +1,17 @@
-import brackets from "@/public/assets/svg/Brackets";
+import Brackets from "../Pricing/Brackets";
 
-const TagLine = ({ className, children }) => {
+const TagLine = ({
+  className,
+  children,
+}: {
+  className?: string;
+  children?: string;
+}) => {
   return (
     <div className={`tagline flex items-center ${className || ""}`}>
-      {brackets("left")}
+      <Brackets position="left" />
       <div className="mx-3 text-n-3">{children}</div>
-      {brackets("right")}
+      <Brackets position="right" />
     </div>
   );
 };

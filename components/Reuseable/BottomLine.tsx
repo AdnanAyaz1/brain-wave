@@ -1,8 +1,8 @@
 import React from "react";
 import PlusSvg from "./PlusSvg";
-import { twMerge } from "tailwind-merge";
 
-export const BottomLine = ({ cl }: { cl?: string }) => {
+
+export const BottomLine = () => {
   return (
     <>
       <div
